@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:QRCodeTest"
+             x:Class="QRCodeTest.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Scaneie o QR" Clicked="Button_Clicked" ></Button>
+            <Label Text="" x:Name="code" TextColor="Red" HorizontalOptions="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
